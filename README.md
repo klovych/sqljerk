@@ -13,15 +13,16 @@ To install and use SQLJerk, follow these steps:
    cd sqljerk
 Install required dependencies:
 
-pip install -r requirements.txt
+```bash pip install -r requirements.txt```
 
 🔧 How to Use
 
 Run the program:
 
 
+```bash
 python sqljerk.py
-
+```
 Enter the target URL with query parameters for testing:
 
 Example URLs:
@@ -59,7 +60,7 @@ requests (for sending HTTP requests)
 termcolor (for colored output in the terminal)
 These dependencies are included in the requirements.txt file. Install them using:
 
-pip install -r requirements.txt
+```bash pip install -r requirements.txt```
 ⚖ License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
