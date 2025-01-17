@@ -11,6 +11,7 @@ To install and use SQLJerk, follow these steps:
    ```bash
    git clone https://github.com/yourusername/sqljerk.git
    cd sqljerk
+   
 Install required dependencies:
 
 ```pip install -r requirements.txt```
@@ -39,6 +40,7 @@ Check the results:
 ✅ If no vulnerabilities are found, you will see a success message.
 
 ❌ If potential vulnerabilities are found, you will be notified with the exact query and payload that triggered the vulnerability.
+
 📜 Logs
 
 All requests and responses are logged into a file named sqljerk_log.txt. Each log entry includes:
@@ -64,6 +66,7 @@ Enter the target URL (with parameters): https://example.com?id=1
 [+] No SQL injection vulnerabilities found.
 
 🔑 Requirements
+
 You will need Python 3.6+ and the following dependencies:
 
 requests (for sending HTTP requests)
