@@ -67,10 +67,9 @@ Enter the target URL (with parameters): https://example.com?id=1
 You will need Python 3.6+ and the following dependencies:
 
 requests (for sending HTTP requests)
-termcolor (for colored output in the terminal)
-These dependencies are included in the requirements.txt file. Install them using:
 
-```pip install -r requirements.txt```
+termcolor (for colored output in the terminal)
+
 ⚖ License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
