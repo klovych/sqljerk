@@ -44,11 +44,8 @@ Check the results:
 All requests and responses are logged into a file named sqljerk_log.txt. Each log entry includes:
 
 The test URL
-
 The server's response code
-
 The response length
-
 A snippet of the response content (up to 500 characters)
 
 🛠 Example Output
