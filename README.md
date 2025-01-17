@@ -9,7 +9,7 @@ To install and use SQLJerk, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/sqljerk.git
+   git clone https://github.com/klovych/sqljerk.git
    cd sqljerk
    
 Install required dependencies:
