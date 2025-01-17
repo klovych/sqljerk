@@ -13,7 +13,7 @@ To install and use SQLJerk, follow these steps:
    cd sqljerk
 Install required dependencies:
 
-```bash pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 🔧 How to Use
 
@@ -23,29 +23,39 @@ Run the program:
 ```bash
 python sqljerk.py
 ```
+
 Enter the target URL with query parameters for testing:
 
 Example URLs:
 
 https://example.com?id=1
+
 https://example.com?search=test
+
 The program will attempt to find SQL injection vulnerabilities by sending various payloads to the target URL. If vulnerabilities are detected, the results will be displayed in the terminal and logged in the sqljerk_log.txt file.
 
 Check the results:
 
 ✅ If no vulnerabilities are found, you will see a success message.
+
 ❌ If potential vulnerabilities are found, you will be notified with the exact query and payload that triggered the vulnerability.
 📜 Logs
+
 All requests and responses are logged into a file named sqljerk_log.txt. Each log entry includes:
 
 The test URL
+
 The server's response code
+
 The response length
+
 A snippet of the response content (up to 500 characters)
+
 🛠 Example Output
 
 
 SQL Injection Scanner
+
 Made in Tbilisian Coder
 
 Enter the target URL (with parameters): https://example.com?id=1
@@ -60,7 +70,7 @@ requests (for sending HTTP requests)
 termcolor (for colored output in the terminal)
 These dependencies are included in the requirements.txt file. Install them using:
 
-```bash pip install -r requirements.txt```
+```pip install -r requirements.txt```
 ⚖ License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
