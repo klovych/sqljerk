@@ -53,16 +53,16 @@ A snippet of the response content (up to 500 characters)
 
 🛠 Example Output
 
-
-SQL Injection Scanner
-
-Made in Tbilisian Coder
-
 Enter the target URL (with parameters): https://example.com?id=1
+
 [+] Checking URL: https://example.com?id=1
+
 [!] Possible SQL injection vulnerability detected: https://example.com?id=1' OR 1=1--
+
     Payload: ' OR 1=1--
+    
 [+] No SQL injection vulnerabilities found.
+
 🔑 Requirements
 You will need Python 3.6+ and the following dependencies:
 
